@@ -1,0 +1,22 @@
+// Mixins media queries start
+@mixin large-screen() {
+    @media screen and (max-width: 1199px) {
+        @content;
+    }
+}
+@mixin medium-screen() {
+    @media screen and (max-width: 991px) {
+        @content;
+    }
+}
+@mixin small-screen() {
+    @media screen and (max-width: 767px) {
+        @content;
+    }
+}
+@mixin extra-small-screen() {
+    @media screen and (max-width: 576px) {
+        @content;
+    }
+}
+// Mixins media queries end

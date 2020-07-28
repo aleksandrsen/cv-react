@@ -1,0 +1,590 @@
+@import "reset";
+@import "mixin";
+
+$margin: 30px;
+$first-color: #2C3E50;
+$second-color: #2C3E50;
+$third-color: #000;
+$link-color: #18BC9C;
+$title-font: 'Bebas Neue', sans-serif;
+$cursive-font: 'Courgette', cursive;
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1170px;
+}
+
+@include large-screen {
+    .container {
+        max-width: 1140px;
+    }
+}
+
+@include medium-screen {
+    .container {
+        max-width: 960px;
+        flex-direction: column;
+    }
+}
+
+@include small-screen {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@include extra-small-screen {
+    .container {
+        max-width: 540px;
+    }
+}
+
+main {
+    padding: 20px 0;
+}
+
+// Left info block
+.main-info {
+    flex-basis: 40%;
+    padding: 0 30px;
+
+    @include medium-screen {
+        margin-bottom: 40px;
+    }
+
+    img.profile-img {
+        display: block;
+        margin: 0 auto 30px;
+        max-width: 300px;
+        max-height: 300px;
+        height: auto;
+    }
+
+    h2.main-title {
+        font-family: $title-font;
+        font-size: 3rem;
+        color: $first-color;
+        text-align: center;
+        margin-bottom: $margin;
+    }
+
+    .main-sub-title {
+        font-family: $cursive-font;
+        font-size: 1.6rem;
+        line-height: 1.4;
+        text-align: center;
+        color: $first-color;
+        margin-bottom: $margin;
+    }
+
+    .aside-item + .aside-item {
+        margin-top: $margin;
+    }
+
+    .aside-item-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+        font-size: 2.6rem;
+    }
+
+    .icon-left {
+        height: 40px;
+        flex-basis: 40px;
+        font-size: 1.25rem;
+        border: 1px solid $first-color;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 30px;
+
+        i {
+            line-height: 38px;
+            color: $second-color;
+        }
+
+        i.fa-phone-volume {
+            transform: rotate(-35deg);
+        }
+    }
+
+    .item-title {
+        display: flex;
+        align-items: baseline;
+        flex-grow: 1;
+        font-family: $title-font;
+        text-transform: uppercase;
+        color: $first-color;
+
+        .title {
+            margin-right: auto;
+        }
+
+        .round {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            background-color: $first-color;
+            border-radius: 50%;
+
+            & + .round {
+                margin-left: 5px;
+            }
+        }
+    }
+
+    .aside-item-content {
+        color: $third-color;
+
+        &.about-me {
+            line-height: 1.5em;
+        }
+    }
+
+    .contact-item {
+        display: flex;
+        align-items: center;
+
+        & + .contact-item {
+            margin-top: 20px;
+        }
+
+        a {
+            transition: .3s;
+            color: $third-color;
+        }
+
+        a:hover {
+            color: $link-color;
+            text-decoration: underline;
+        }
+    }
+
+    .contact-item-icon {
+        height: 35px;
+        width: 35px;
+        font-size: 1.1rem;
+        border: 1px solid $first-color;
+        border-radius: 50%;
+        text-align: center;
+        margin-left: 2.5px;
+        margin-right: 32.5px;
+        color: $first-color;
+
+        i {
+            line-height: 35px;
+        }
+
+        .symbol {
+            font-weight: 700;
+        }
+
+        i.fa-phone {
+            transform: rotate(100deg);
+        }
+    }
+
+    .send-email-btn {
+        display: block;
+        cursor: pointer;
+        text-align: center;
+        margin-top: 40px;
+        width: 100%;
+        font-size: 1.3rem;
+        padding: 15px;
+        border-radius: 10px;
+        transition: .3s;
+    }
+}
+
+// Right info block
+.add-info {
+    flex-basis: 60%;
+    position: relative;
+    padding: 30px 20px;
+}
+
+img.grey-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+
+    @include small-screen {
+        object-fit: cover;
+    }
+}
+
+.add-info-content {
+    position: relative;
+    z-index: 10;
+}
+
+.add-info-item + .add-info-item {
+    margin-top: 20px;
+}
+
+.add-info-item-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 2.6rem;
+
+    .icon-left {
+        height: 50px;
+        flex-basis: 50px;
+        flex-shrink: 0;
+        font-size: 1.4rem;
+        border: 2px solid $first-color;
+        border-radius: 50%;
+        text-align: center;
+        margin-right: 30px;
+
+        i {
+            line-height: 46px;
+            color: $first-color;
+        }
+    }
+
+    .item-title {
+        display: flex;
+        align-items: baseline;
+        flex-grow: 1;
+        font-family: $title-font;
+        text-transform: uppercase;
+        color: $first-color;
+    }
+
+    .title {
+        margin-right: auto;
+    }
+
+    .round {
+        display: inline-block;
+        height: 10px;
+        width: 10px;
+        background-color: $first-color;
+        border-radius: 50%;
+
+        & + .round {
+            margin-left: 5px;
+        }
+    }
+}
+
+@include small-screen {
+    .add-info-item-content.projects {
+        padding-left: 0;
+    }
+}
+
+.add-info-item-content {
+    padding-left: 80px;
+
+    &.hobby {
+        display: flex;
+        align-items: center;
+
+        @include small-screen {
+            justify-content: space-between;
+        }
+
+        @include extra-small-screen {
+            padding: 10px 0 0;
+        }
+    }
+
+    &.projects {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+
+        @include small-screen {
+            grid-template-columns: auto;
+            grid-template-rows: auto;
+            justify-content: center;
+            grid-gap: 30px;
+        }
+    }
+
+    .sub-title {
+        font-family: $cursive-font;
+        color: $first-color;
+        font-size: 1.4rem;
+        line-height: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .dates {
+        font-size: 1.2rem;
+        font-family: $title-font;
+        color: $first-color;
+    }
+
+    .description {
+        color: $third-color;
+        line-height: 1.4em;
+    }
+
+    a.ars {
+        color: $first-color;
+        transition: .2s;
+
+        &:hover {
+            color: $link-color;
+        }
+    }
+}
+
+.hobby-item {
+    height: 50px;
+    width: 50px;
+    font-size: 1.4rem;
+    background-color: $second-color;
+    border-radius: 50%;
+    text-align: center;
+
+    & + .hobby-item {
+        margin-left: 30px;
+
+        @include small-screen {
+            margin-left: 0;
+        }
+    }
+
+    i {
+        color: #fff;
+        line-height: 50px;
+    }
+}
+
+@include small-screen {
+    .project-item:first-child {
+        margin-top: 30px;
+    }
+}
+
+
+.project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    img.preview-img {
+        margin-bottom: 10px;
+    }
+
+    a {
+        display: inline-block;
+        color: $third-color;
+        font-size: 1rem;
+        transition: .3s;
+
+        @include small-screen {
+            font-size: 1.2rem;
+        }
+
+        &:last-child {
+            margin-top: 10px;
+
+            @include small-screen {
+                margin-top: 15px;
+            }
+        }
+
+        &:hover {
+            color: $link-color;
+        }
+    }
+
+    figcaption {
+        font-family: $cursive-font;
+        font-size: 1.2rem;
+        line-height: 1.4em;
+        color: $first-color;
+        margin-bottom: 10px;
+
+        @include small-screen {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+// Modal
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 30px;
+}
+
+.modal .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    z-index: 221;
+    color: #fff;
+    opacity: 1;
+    font-size: 55px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.modal .close:not(:disabled):not(.disabled):hover,
+.modal .close:not(:disabled):not(.disabled):focus {
+    color: #efefef;
+    cursor: pointer;
+}
+
+.send-form {
+    max-width: 500px;
+    padding: 40px 50px;
+    margin: 50px auto 0;
+    background-color: $first-color;
+    border-radius: 10px;
+
+    @include extra-small-screen {
+        max-width: 450px;
+    }
+}
+
+.form-inner label {
+    display: block;
+    padding-left: 15px;
+    color: #fff;
+    font-size: 1.1rem;
+}
+
+.form-inner input,
+.form-inner textarea {
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    margin: 10px 0 15px;
+    font-family: "OpenSans", sans-serif;
+    border-radius: 20px;
+    color: white;
+    background: rgba(255, 255, 255, .3);
+    border: 1px solid transparent;
+}
+
+.form-inner input {
+    line-height: 40px;
+}
+
+.form-inner input::placeholder,
+.form-inner textarea::placeholder {
+    color: #c4c4c4;
+    transition: .5s;
+}
+
+.form-inner input:focus::placeholder,
+.form-inner textarea:focus::placeholder {
+    opacity: 0;
+}
+
+.form-inner textarea {
+    resize: none;
+    min-height: 120px;
+    line-height: 1.5em;
+    padding: 15px;
+}
+
+.form-inner button {
+    display: block;
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    color: white;
+    background: rgba(255, 255, 255, .3);
+}
+
+.animate {
+    animation: animatezoom 0.6s
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+.result {
+    display: none;
+    text-align: center;
+    font-size: 200px;
+}
+
+.result[data-state="spin"]::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f1ce";
+    display: block;
+    animation: rotate infinite 5s linear;
+}
+
+.result[data-state="check"]::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f058";
+}
+
+.result[data-state="error"] {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+input[data-state="valid"] {
+    border: 1px solid green;
+}
+
+input[data-state="invalid"] {
+    border: 1px solid darkred;
+}
+
+textarea[data-state="valid"] {
+    border: 1px solid green;
+}
+
+textarea[data-state="invalid"] {
+    border: 1px solid darkred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
