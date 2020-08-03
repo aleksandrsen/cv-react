@@ -1,0 +1,25 @@
+.main {
+  img {
+    display: block;
+    margin: 0 auto 30px;
+    max-width: 300px;
+    max-height: 300px;
+    height: auto;
+  }
+
+  .main-title {
+    font-family: var(--title-font);
+    font-size: 3rem;
+    color: var(--primary-color);
+    text-align: center;
+  }
+
+  .main-sub-title {
+    font-family: var(--cursive-font);
+    font-size: 1.6rem;
+    line-height: 1.4;
+    text-align: center;
+    color: var(--primary-color);;
+    margin-bottom: 30px;
+  }
+}

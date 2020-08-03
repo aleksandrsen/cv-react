@@ -1,6 +1,15 @@
 @import "reset";
 @import "mixin";
 
+:root {
+    --primary-color: #2C3E50;
+    --secondary-color: #2C3E50;
+    --additional-color: #000;
+    --link-color: #18BC9C;
+    --title-font: 'Bebas Neue', sans-serif;
+    --cursive-font: 'Courgette', cursive;
+}
+
 $margin: 30px;
 $first-color: #2C3E50;
 $second-color: #2C3E50;
@@ -11,12 +20,26 @@ $cursive-font: 'Courgette', cursive;
 
 
 .container {
-    display: flex;
-    justify-content: center;
+    //display: flex;
+    //justify-content: center;
     width: 100%;
     margin: 0 auto;
     padding: 0 15px;
     max-width: 1170px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-1 {
+    width: 30%;
+}
+
+.col-2 {
+    width: 67%;
 }
 
 @include large-screen {
@@ -57,30 +80,7 @@ main {
         margin-bottom: 40px;
     }
 
-    img.profile-img {
-        display: block;
-        margin: 0 auto 30px;
-        max-width: 300px;
-        max-height: 300px;
-        height: auto;
-    }
 
-    h2.main-title {
-        font-family: $title-font;
-        font-size: 3rem;
-        color: $first-color;
-        text-align: center;
-        margin-bottom: $margin;
-    }
-
-    .main-sub-title {
-        font-family: $cursive-font;
-        font-size: 1.6rem;
-        line-height: 1.4;
-        text-align: center;
-        color: $first-color;
-        margin-bottom: $margin;
-    }
 
     .aside-item + .aside-item {
         margin-top: $margin;

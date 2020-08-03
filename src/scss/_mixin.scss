@@ -1,4 +1,3 @@
-// Mixins media queries start
 @mixin large-screen() {
     @media screen and (max-width: 1199px) {
         @content;
@@ -19,4 +18,3 @@
         @content;
     }
 }
-// Mixins media queries end
