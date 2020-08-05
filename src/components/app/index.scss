@@ -1,0 +1,62 @@
+.navPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px;
+    background-color: grey;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 130px;
+        background-color: var(--secondary-color);
+        text-transform: uppercase;
+        color: var(--primary-color);
+        font-size: 20px;
+        padding: 10px;
+        line-height: 1.4em;
+        margin-bottom: 30px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            display: block;
+            position: relative;
+            transition: 0.3s;
+            padding: 10px 0;
+            border-bottom: 1px solid #ebebeb33;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 0;
+                height: 1px;
+                background-color: var(--secondary-color);
+                transition: 0.3s;
+            }
+        }
+
+        a.active {
+            color: var(--secondary-color);
+
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+
+    &__listItem {
+    }
+}

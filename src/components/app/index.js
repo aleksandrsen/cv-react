@@ -1,23 +1,11 @@
 import React from "react";
-import "./index.css";
-import "../../scss/style.scss";
-import Photo from "../photo";
+import "./index.scss";
+import NavPanel from "../nav-panel";
 
-const Index = (props) => (
+const App = (props) => (
     <main>
-        <div className="container">
-            <div className="row">
-                <div className="col-1">
-                    <Photo />
-                </div>
-                <div className="col-2">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda esse exercitationem iusto,
-                    maiores modi molestias quae rerum sed. Accusamus accusantium adipisci aut culpa doloremque, eaque
-                    eos laboriosam magni porro quibusdam.
-                </div>
-            </div>
-        </div>
+        <NavPanel />
     </main>
 );
 
-export default Index;
+export default App;
