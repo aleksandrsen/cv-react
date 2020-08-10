@@ -1,0 +1,61 @@
+.navPanel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 32px;
+    z-index: 100;
+    background-color: #000;
+
+    &__header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 130px;
+        height: 130px;
+        background-color: var(--secondary-color);
+        text-transform: uppercase;
+        color: var(--primary-color);
+        font-size: 20px;
+        font-weight: 500;
+        padding: 10px;
+        line-height: 1.4em;
+        margin-bottom: 30px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+
+        a {
+            display: block;
+            position: relative;
+            padding: 10px 0;
+            color: #818181;
+            border-bottom: 1px solid #ebebeb33;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 0;
+                height: 1px;
+                background-color: var(--secondary-color);
+                transition: 1s;
+                transition-delay: 0.5s;
+            }
+        }
+
+        a.active {
+            color: var(--secondary-color);
+
+            &::before {
+                width: 100%;
+            }
+        }
+    }
+}

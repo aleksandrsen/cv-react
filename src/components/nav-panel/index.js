@@ -1,18 +1,19 @@
 import React from "react";
 import "./index.scss";
-import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
-const NavPanel = (props) => {
-    const navigationItems = ["Home", "About", "Skills", "Experience", "Education", "Portfolio", "Contact"];
-
+const NavPanel = ({ nav }) => {
+    const location = useLocation();
     return (
         <aside className="navPanel">
             <div className="navPanel__header">Aleksandr Oksen</div>
             <ul className="navPanel__list">
-                {navigationItems.map((item) => (
-                    <NavLink to={`/${item.toLowerCase()}`} activeClassName="active">
-                        {item.toUpperCase()}
-                    </NavLink>
+                {nav.map((item) => (
+                    <li key={item}>
+                        <a href={`#${item}`} className={location.hash === `#${item}` ? "active" : ""}>
+                            {item.toUpperCase()}
+                        </a>
+                    </li>
                 ))}
             </ul>
         </aside>

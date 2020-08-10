@@ -1,0 +1,13 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .position {
+        font-size: 32px;
+    }
+    &.sectionItem .sectionItemHeader::before {
+        display: none;
+    }
+}
