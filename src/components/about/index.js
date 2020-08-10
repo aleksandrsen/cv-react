@@ -13,10 +13,7 @@ const About = ({ id, name, email, phone, birthDate, address, about }) => (
             <li className="about__infoItem">Address: {address}</li>
         </ul>
         <h2 className="about__profile">Professional profile</h2>
-        <p className="about__profileContent">
-            I'm inspired by studying and working in web development. I like implementing modern design in the web with
-            new technologies. I like application development using JavaScript and React.
-        </p>
+        <p className="about__profileContent">{about}</p>
     </section>
 );
 

@@ -11,17 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/about/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/about/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/home/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/experience/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/experience/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +59,14 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
-      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\info-item-wrapper" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\contact-me" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
+      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\info-item-wrapper" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -93,7 +88,7 @@
       <workItem from="1596649508961" duration="4399000" />
       <workItem from="1596728859271" duration="57000" />
       <workItem from="1596736906947" duration="3705000" />
-      <workItem from="1597072732188" duration="7252000" />
+      <workItem from="1597072732188" duration="10706000" />
     </task>
     <servers />
   </component>

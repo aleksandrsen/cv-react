@@ -1,0 +1,59 @@
+.experience {
+    p {
+        margin-bottom: 30px;
+        text-align: left;
+        line-height: 1.4em;
+    }
+
+    &__listItem {
+        display: flex;
+        align-items: center;
+        padding: 32px 0;
+        border-top: 1px solid #333;
+
+        & > div {
+            display: flex;
+            align-items: center;
+            width: 40%;
+            margin-right: 32px;
+        }
+    }
+
+    &__listItemIcon {
+        width: 60px;
+        height: 60px;
+        flex-shrink: 0;
+        background-color: var(--secondary-color);
+        margin-right: 25px;
+    }
+
+    &__listItemInfo {
+        text-align: left;
+
+        div {
+            line-height: 1.7em;
+            text-transform: uppercase;
+        }
+
+        .orgName a {
+            font-style: italic;
+            transition: 0.3s;
+            &:hover {
+                color: var(--secondary-color);
+            }
+        }
+
+        .position {
+            font-size: 20px;
+        }
+
+        .period {
+            font-size: 14px;
+        }
+    }
+
+    &__description {
+        text-align: left;
+        line-height: 1.4em;
+    }
+}
