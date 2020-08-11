@@ -1,4 +1,4 @@
-.experience {
+.education {
     p {
         margin-bottom: 30px;
         text-align: left;
@@ -14,7 +14,7 @@
         & > div {
             display: flex;
             align-items: center;
-            width: 40%;
+            width: 45%;
             margin-right: 32px;
         }
     }
@@ -35,8 +35,7 @@
             text-transform: uppercase;
         }
 
-        .orgName a {
-            font-style: italic;
+         a {
             transition: 0.3s;
             &:hover {
                 color: var(--secondary-color);

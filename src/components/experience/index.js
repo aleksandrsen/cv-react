@@ -12,7 +12,7 @@ const Experience = ({ id, experience }) => (
         </p>
         <ul className="experience__list">
             {experience.map(({ orgName, position, period, link, description }) => (
-                <li className="experience__listItem">
+                <li className="experience__listItem" key={orgName}>
                     <div>
                         <div className="experience__listItemIcon">LOGO???</div>
                         <div className="experience__listItemInfo">

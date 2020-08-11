@@ -4,6 +4,7 @@ import NavPanel from "../nav-panel";
 import Home from "../home";
 import About from "../about";
 import Experience from "../experience";
+import Education from "../education";
 
 const navigationItems = ["home", "about", "skills", "experience", "education", "portfolio", "contact"];
 
@@ -35,6 +36,21 @@ const info = {
                 "I was working with electric machines, motors, electric generators, electrical switches, transformers at all nuclear power plants in our country..",
         },
     ],
+    education: [
+        {
+            name: "National University of Food Technologies",
+            degree: "Master's Degree",
+            period: "Sep 2010 - Jun 2015",
+            description: "Obtained qualification of Master in Electrical Engineering Systems and Power Consumption.",
+        },
+        {
+            name: "React development course (learn.js)",
+            degree: "",
+            period: "Sep 2010 - Jun 2015",
+            description:
+                "Familiarity with React and its ecosystem. Building Applications with React, Redux. React for SPA, react-router and advanced React APIs.",
+        },
+    ],
 };
 
 const App = (props) => (
@@ -45,7 +61,7 @@ const App = (props) => (
             <About id={navigationItems[1]} {...info.main} />
             <About id={navigationItems[2]} />
             <Experience id={navigationItems[3]} experience={info.experience} />
-            <About id={navigationItems[4]} />
+            <Education id={navigationItems[4]} education={info.education} />
             <About id={navigationItems[5]} />
             <About id={navigationItems[6]} />
         </div>
