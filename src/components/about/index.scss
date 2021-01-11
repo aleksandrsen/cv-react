@@ -1,3 +1,5 @@
+@import "src/utils/var";
+
 .about {
 
     &__list {
@@ -6,7 +8,7 @@
 
     &__infoItem {
         padding: 15px 5px;
-        border-bottom: 1px solid var(--text-color);
+        border-bottom: 1px solid $text-color;
         text-align: left;
     }
 

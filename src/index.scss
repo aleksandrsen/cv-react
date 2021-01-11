@@ -65,36 +65,7 @@ svg {
     display: block;
 }
 
-@mixin large-screen() {
-    @media screen and (max-width: 1199px) {
-        @content;
-    }
-}
-@mixin medium-screen() {
-    @media screen and (max-width: 991px) {
-        @content;
-    }
-}
-@mixin small-screen() {
-    @media screen and (max-width: 767px) {
-        @content;
-    }
-}
-@mixin extra-small-screen() {
-    @media screen and (max-width: 576px) {
-        @content;
-    }
-}
-
 body {
     background-color: #474646;
     scroll-behavior: smooth;
-}
-
-:root {
-    --primary-color: #000;
-    --secondary-color: #7dba5c;
-    --title-font: "Oswald", sans-serif;
-    --text-font: "Roboto", sans-serif;
-    --text-color: #818181;
 }

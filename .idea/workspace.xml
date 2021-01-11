@@ -11,12 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/skills/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/skills/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/var.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="SCSS File" />
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -45,7 +50,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React/react_cocktail_shop---------git/.env" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -93,7 +98,7 @@
       <workItem from="1597118966585" duration="1981000" />
       <workItem from="1598619748992" duration="358000" />
       <workItem from="1600185031043" duration="1217000" />
-      <workItem from="1610383660313" duration="4218000" />
+      <workItem from="1610383660313" duration="4907000" />
     </task>
     <servers />
   </component>

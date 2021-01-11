@@ -1,10 +1,9 @@
 import React from "react";
 import "./index.scss";
-import { getTitle } from "../../utils";
 
 const About = ({ id, name, email, phone, birthDate, address, about }) => (
     <section className="about sectionItem" id={id}>
-        <h2 className="sectionItemHeader">{getTitle(id)}</h2>
+        <h2 className="sectionItemHeader">{id}</h2>
         <ul className="about__list">
             <li className="about__infoItem">Name: {name}</li>
             <li className="about__infoItem">Email: {email}</li>

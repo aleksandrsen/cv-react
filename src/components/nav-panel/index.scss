@@ -1,3 +1,5 @@
+@import "src/utils/var";
+
 .navPanel {
     position: fixed;
     top: 0;
@@ -16,9 +18,9 @@
         justify-content: center;
         width: 130px;
         height: 130px;
-        background-color: var(--secondary-color);
+        background-color: $secondary-color;
         text-transform: uppercase;
-        color: var(--primary-color);
+        color: $primary-color;
         font-size: 20px;
         font-weight: 500;
         padding: 10px;
@@ -44,14 +46,14 @@
                 left: 0;
                 width: 0;
                 height: 1px;
-                background-color: var(--secondary-color);
+                background-color: $secondary-color;
                 transition: 1s;
                 transition-delay: 0.5s;
             }
         }
 
         a.active {
-            color: var(--secondary-color);
+            color: $secondary-color;
 
             &::before {
                 width: 100%;
