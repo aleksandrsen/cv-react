@@ -11,12 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/education/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/education/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skills/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/skills/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/experience/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,20 +55,21 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\node_modules\prettier" />
-    <property name="run.prettier.on.save" value="true" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
+      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\info-item-wrapper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\contact-me" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\app" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
-      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\info-item-wrapper" />
-    </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -89,12 +90,15 @@
       <workItem from="1596728859271" duration="57000" />
       <workItem from="1596736906947" duration="3705000" />
       <workItem from="1597072732188" duration="11501000" />
-      <workItem from="1597118966585" duration="1901000" />
+      <workItem from="1597118966585" duration="1981000" />
+      <workItem from="1598619748992" duration="358000" />
+      <workItem from="1600185031043" duration="1217000" />
+      <workItem from="1610383660313" duration="4218000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -107,39 +111,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="551" y="279" key="#ESLint" timestamp="1595874475907">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="551" y="279" key="#ESLint/0.0.1366.738@0.0.1366.738" timestamp="1595874475907" />
-    <state x="441" y="64" key="#SCSS" timestamp="1596567642782">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="441" y="64" key="#SCSS/0.0.1366.738@0.0.1366.738" timestamp="1596567642782" />
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596737374829">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="137" y="23" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1596737374829" />
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595874067576">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="413" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1595874067576" />
-    <state x="463" y="123" key="FileChooserDialogImpl" timestamp="1596382017074">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="463" y="123" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1596382017074" />
-    <state x="184" y="13" key="SettingsEditor" timestamp="1596567632831">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="184" y="13" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1596567632831" />
-    <state x="0" y="0" width="585" height="738" key="find.popup" timestamp="1597078585684">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="0" y="0" width="585" height="738" key="find.popup/0.0.1366.738@0.0.1366.738" timestamp="1597078585684" />
-    <state x="339" y="165" key="run.anything.popup" timestamp="1596566018844">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="339" y="165" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1596566018844" />
   </component>
 </project>

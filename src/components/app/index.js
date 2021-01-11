@@ -5,6 +5,7 @@ import Home from "../home";
 import About from "../about";
 import Experience from "../experience";
 import Education from "../education";
+import Skills from "../skills";
 
 const navigationItems = ["home", "about", "skills", "experience", "education", "portfolio", "contact"];
 
@@ -51,15 +52,57 @@ const info = {
                 "Familiarity with React and its ecosystem. Building Applications with React, Redux. React for SPA, react-router and advanced React APIs.",
         },
     ],
+    skills: {
+        technical: {
+            title: "TECHNICAL SKILLS",
+            list: [
+                "HTML 5",
+                "CSS 3",
+                "SCSS",
+                "JAVASCRIPT",
+                "TYPESCRIPT",
+                "GULP",
+                "WEBPACK",
+                "RESPONSIVE",
+                "REDUX HOOKS",
+                "REACT",
+                "REDUX",
+                "REDUX SAGA",
+                "REDUX THUNK",
+                "WEBSOCKETS",
+                "MIDDLEWARE",
+                "JIRA",
+                "FORMIK",
+                "REDUX FORM",
+                "REACT DND",
+                "BEM",
+                "BOOTSTRAP",
+                "MATERIAL UI",
+                "ANT-DESIGN",
+                "NPM",
+                "GIT",
+                "FIGMA",
+                "PHOTOSHOP",
+                "AVOCODE",
+            ],
+        },
+        language: {
+            title: "LANGUAGE",
+            list: [
+                { lang: "EN", level: "intermediate" },
+                { lang: "UR RU", level: "native" },
+            ],
+        },
+    },
 };
 
-const App = (props) => (
+const App = () => (
     <main className="app">
-        <NavPanel nav={navigationItems} />
+        <NavPanel nav={navigationItems} name={info.main.name} />
         <div className="app__scrollContainer">
             <Home id={navigationItems[0]} name={info.main.name} />
             <About id={navigationItems[1]} {...info.main} />
-            <About id={navigationItems[2]} />
+            <Skills id={navigationItems[2]} skills={info.skills} />
             <Experience id={navigationItems[3]} experience={info.experience} />
             <Education id={navigationItems[4]} education={info.education} />
             <About id={navigationItems[5]} />
