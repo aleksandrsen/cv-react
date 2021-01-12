@@ -8,7 +8,7 @@ const Skills = ({ id, skills: { technical, language } }) => (
             <h2>{technical.title}</h2>
             <ul className="skills__technicalList">
                 {technical.list.map((item) => (
-                    <li>{item}</li>
+                    <li key={item}>{item}</li>
                 ))}
             </ul>
         </div>
@@ -16,7 +16,7 @@ const Skills = ({ id, skills: { technical, language } }) => (
             <h2>{language.title}</h2>
             <ul className="skills__languageList">
                 {language.list.map(({ lang, level }) => (
-                    <li>
+                    <li key={lang}>
                         {lang} - {level}
                     </li>
                 ))}

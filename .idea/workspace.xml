@@ -11,17 +11,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/utils/var.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/icons.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/about/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/main-background.jpeg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/main-background.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/preview-8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/preview-8.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/profile-picture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/profile-picture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/second-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/second-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/semantic.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/semantic.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/towerIQ-1.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/towerIQ-1.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/towerIQ-2.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/towerIQ-2.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/towerIQ-3.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/towerIQ-3.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/towerIQ-4.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/towerIQ-4.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/towerIQ-5.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/towerIQ-5.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/towerIQ-6.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/towerIQ-6.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/towerIQ-7.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/towerIQ-7.JPG" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-10-28.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-10-28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-10-31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-10-31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-10-44.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-10-44.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-11-39.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-11-39.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-11-49.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-11-49.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-12-16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-12-16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-12-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-12-27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-16-27.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-16-27.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-16-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-16-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-16-56.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-16-56.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-17-03.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-17-03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-17-47.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-17-47.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-20-35.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-20-35.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-20-50.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-20-50.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Знімок екрану з 2020-06-02 08-21-55.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/Знімок екрану з 2020-06-02 08-21-55.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +63,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -50,7 +82,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React/react_cocktail_shop---------git/.env" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React/react_cocktail_shop---------git/src/src_/icons.tsx" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -61,6 +93,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -69,6 +102,8 @@
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\info-item-wrapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\utils\logo" />
+      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\utils" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\contact-me" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\app" />
@@ -98,7 +133,8 @@
       <workItem from="1597118966585" duration="1981000" />
       <workItem from="1598619748992" duration="358000" />
       <workItem from="1600185031043" duration="1217000" />
-      <workItem from="1610383660313" duration="4907000" />
+      <workItem from="1610383660313" duration="5244000" />
+      <workItem from="1610474516817" duration="3517000" />
     </task>
     <servers />
   </component>

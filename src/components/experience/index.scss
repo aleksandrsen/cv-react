@@ -1,7 +1,7 @@
 @import "src/utils/var";
 
 .experience {
-    p {
+    &__description {
         margin-bottom: 30px;
         text-align: left;
         line-height: 1.4em;
@@ -16,17 +16,14 @@
         & > div {
             display: flex;
             align-items: center;
-            width: 40%;
+            width: 50%;
             margin-right: 32px;
         }
     }
 
-    &__listItemIcon {
-        width: 60px;
-        height: 60px;
-        flex-shrink: 0;
-        background-color: $secondary-color;
-        margin-right: 25px;
+    &__itemIcon {
+        margin-right: 32px;
+        color: $secondary-color;
     }
 
     &__listItemInfo {
@@ -43,6 +40,11 @@
             &:hover {
                 color: $secondary-color;
                 text-decoration: underline;
+            }
+
+            svg {
+                display: inline;
+                margin-right: 7px;
             }
         }
 

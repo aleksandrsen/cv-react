@@ -1,11 +1,14 @@
 import React from "react";
 import "./index.scss";
-import NavPanel from "../nav-panel";
+// Components
 import Home from "../home";
 import About from "../about";
-import Experience from "../experience";
-import Education from "../education";
 import Skills from "../skills";
+import NavPanel from "../nav-panel";
+import Education from "../education";
+import Experience from "../experience";
+// Utils
+import Icons from "../../utils/icons";
 
 const navigationItems = ["home", "about", "skills", "experience", "education", "portfolio", "contact"];
 
@@ -25,6 +28,7 @@ const info = {
             position: "Frontend developer",
             period: "Jan 2020 - nowadays",
             link: "https://jobs.dou.ua/companies/toweriq/",
+            iconId: "#icon-laptop",
             description:
                 "I am working with web application using React, Redux, Redux-Forms, Redux-thunk, React-dnd. A platform for the US market that allows customers to set up various alarm systems, upload building plans, draw walls, place equipment, lay cables and calculate signal coverage for your plan and building, configure equipment, create equipment installations. As a result, customers receive a PDF file of your building with the required signal coverage area and needed equipment.",
         },
@@ -33,6 +37,7 @@ const info = {
             position: "Repair technician",
             period: "Aug 2015 - Dec 2019",
             link: "http://ars.atom.gov.ua/",
+            iconId: "#icon-tool",
             description:
                 "I was working with electric machines, motors, electric generators, electrical switches, transformers at all nuclear power plants in our country..",
         },
@@ -84,6 +89,8 @@ const info = {
                 "FIGMA",
                 "PHOTOSHOP",
                 "AVOCODE",
+                "MATERIALIZE",
+                "JEST",
             ],
         },
         language: {
@@ -98,6 +105,7 @@ const info = {
 
 const App = () => (
     <main className="app">
+        <Icons />
         <NavPanel nav={navigationItems} name={info.main.name} />
         <div className="app__scrollContainer">
             <Home id={navigationItems[0]} name={info.main.name} />
