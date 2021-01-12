@@ -1,5 +1,6 @@
 import React from "react";
 import "./index.scss";
+import certificate from "../../utils/certificate.jpg";
 
 const Education = ({ id, education }) => (
     <section className="education sectionItem" id={id}>
@@ -10,13 +11,23 @@ const Education = ({ id, education }) => (
             vitae!
         </p>
         <ul className="experience__list">
-            {education.map(({ name, degree, period, description }) => (
+            {education.map(({ name, degree, period, description, iconId }) => (
                 <li className="education__listItem" key={name}>
                     <div>
-                        <div className="education__listItemIcon">LOGO???</div>
+                        <svg className="education__itemIcon" width="80" height="80">
+                            <use xlinkHref={iconId} />
+                        </svg>
                         <div className="education__listItemInfo">
                             <div className="orgName">{name}</div>
-                            <div className="position">{degree ? degree : <a href="">Certificate</a>}</div>
+                            <div className="position">
+                                {degree ? (
+                                    degree
+                                ) : (
+                                    <a href={certificate} download>
+                                        Certificate
+                                    </a>
+                                )}
+                            </div>
                             <div className="period">{period}</div>
                         </div>
                     </div>

@@ -21,6 +21,7 @@
     &__technicalList {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
 
         li {
             width: 15%;

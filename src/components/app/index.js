@@ -47,12 +47,14 @@ const info = {
             name: "National University of Food Technologies",
             degree: "Master's Degree",
             period: "Sep 2010 - Jun 2015",
+            iconId: "#icon-graduation",
             description: "Obtained qualification of Master in Electrical Engineering Systems and Power Consumption.",
         },
         {
             name: "React development course (learn.js)",
             degree: "",
-            period: "Sep 2010 - Jun 2015",
+            period: "Jun 2019",
+            iconId: "#icon-react",
             description:
                 "Familiarity with React and its ecosystem. Building Applications with React, Redux. React for SPA, react-router and advanced React APIs.",
         },
