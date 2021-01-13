@@ -1,0 +1,40 @@
+@import "src/utils/var";
+
+.portfolio {
+    &__list {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+
+        li {
+            width: 25%;
+            padding: 15px;
+            text-align: left;
+
+            img,
+            span {
+                margin-bottom: 16px;
+                display: inline-block;
+            }
+
+            span {
+                font-size: 18px;
+            }
+
+            a {
+                display: flex;
+                align-items: center;
+
+                & + a {
+                    margin-top: 10px;
+                }
+
+                svg {
+                    width: 16px;
+                    height: 16px;
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

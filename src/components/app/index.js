@@ -5,9 +5,11 @@ import Home from "../home";
 import About from "../about";
 import Skills from "../skills";
 import NavPanel from "../nav-panel";
+import Portfolio from "../portfolio";
 import Education from "../education";
 import Experience from "../experience";
 // Utils
+
 import Icons from "../../utils/icons";
 
 const navigationItems = ["home", "about", "skills", "experience", "education", "portfolio", "contact"];
@@ -44,19 +46,62 @@ const info = {
     ],
     education: [
         {
-            name: "National University of Food Technologies",
-            degree: "Master's Degree",
-            period: "Sep 2010 - Jun 2015",
-            iconId: "#icon-graduation",
-            description: "Obtained qualification of Master in Electrical Engineering Systems and Power Consumption.",
-        },
-        {
             name: "React development course (learn.js)",
             degree: "",
             period: "Jun 2019",
             iconId: "#icon-react",
             description:
                 "Familiarity with React and its ecosystem. Building Applications with React, Redux. React for SPA, react-router and advanced React APIs.",
+        },
+        {
+            name: "National University of Food Technologies",
+            degree: "Master's Degree",
+            period: "Sep 2010 - Jun 2015",
+            iconId: "#icon-graduation",
+            description: "Obtained qualification of Master in Electrical Engineering Systems and Power Consumption.",
+        },
+    ],
+    portfolio: [
+        { name: "TowerIQ app", link: "https://tiq.cloud/" },
+        {
+            name: "Cocktails shop",
+            link: "https://cocktails-shop.herokuapp.com/",
+            git: "https://github.com/aleksandrsen/cocktail-shop",
+        },
+        {
+            name: "React todo list",
+            link: "https://my-t0d0-list.herokuapp.com/",
+            git: "https://github.com/aleksandrsen/react-todo-list",
+        },
+        {
+            name: "Js news app",
+            link: "https://js-news-app.herokuapp.com/login",
+            git: "https://github.com/aleksandrsen/js-news-app",
+        },
+        {
+            name: "Js countries app",
+            link: "https://js-countries-app.herokuapp.com/",
+            git: "https://github.com/aleksandrsen/js-countries-app",
+        },
+        {
+            name: "Waxom landing page",
+            link: "https://aleksandrsen.github.io/waxom/",
+            git: "https://github.com/aleksandrsen/waxom-landing-page",
+        },
+        {
+            name: "Brandi landing page",
+            link: "https://aleksandrsen.github.io/brandi/",
+            git: "https://github.com/aleksandrsen/brandi-landing-page",
+        },
+        {
+            name: "Bouncy landing page",
+            link: "https://aleksandrsen.github.io/bouncy/",
+            git: "https://github.com/aleksandrsen/bouncy-landing-page",
+        },
+        {
+            name: "Thomas Rhythm landing page",
+            link: "https://aleksandrsen.github.io/thomas-rhythm/",
+            git: "https://github.com/aleksandrsen/thomas-rhythm-landing-page",
         },
     ],
     skills: {
@@ -115,7 +160,7 @@ const App = () => (
             <Skills id={navigationItems[2]} skills={info.skills} />
             <Experience id={navigationItems[3]} experience={info.experience} />
             <Education id={navigationItems[4]} education={info.education} />
-            <About id={navigationItems[5]} />
+            <Portfolio id={navigationItems[5]} portfolio={info.portfolio} />
             <About id={navigationItems[6]} />
         </div>
     </main>
