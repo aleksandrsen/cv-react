@@ -1,0 +1,28 @@
+@import "src/utils/var";
+
+.contact {
+    &__list {
+        margin-bottom: 50px;
+    }
+
+    &__infoItem {
+        display: flex;
+        align-items: center;
+        padding: 15px 5px;
+        border-bottom: 1px solid $text-color;
+        text-align: left;
+
+        svg {
+            margin-right: 16px;
+            color: $secondary-color;
+        }
+
+        a {
+            transition: 0.3s;
+
+            &:hover {
+                color: $secondary-color;
+            }
+        }
+    }
+}

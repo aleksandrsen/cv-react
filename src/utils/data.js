@@ -5,7 +5,7 @@ import img from "./preview-6.jpg";
 export const NAVIGATION_ITEMS = ["home", "about", "skills", "experience", "education", "portfolio", "contact"];
 
 export const MAIN_INFO = {
-    main: {
+    about: {
         name: "Oleksandr Oksen",
         email: "aleksandr7en@gmail.com",
         phone: "+38-095-58-31-872",
@@ -144,6 +144,18 @@ export const MAIN_INFO = {
             link: "https://aleksandrsen.github.io/thomas-rhythm/",
             git: "https://github.com/aleksandrsen/thomas-rhythm-landing-page",
             screenshots: [img1, img2, img],
+        },
+    ],
+    contact: [
+        { value: "+38-095-58-31-872", iconId: "#icon-phone" },
+        { value: "aleksandr7en@gmail.com", iconId: "#icon-email" },
+        {
+            link: "https://www.linkedin.com/in/aleksandr-oksen",
+            iconId: "#icon-linkedin",
+        },
+        {
+            link: "https://github.com/aleksandrsen",
+            iconId: "#icon-github",
         },
     ],
 };

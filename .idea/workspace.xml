@@ -11,14 +11,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio-item.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/contact/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/portfolio/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/icons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/icons.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -63,8 +62,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\utils" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components" />
+      <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\utils" />
       <recent name="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\src\components\info-item-wrapper" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -101,7 +100,8 @@
       <workItem from="1600185031043" duration="1217000" />
       <workItem from="1610383660313" duration="5244000" />
       <workItem from="1610474516817" duration="5172000" />
-      <workItem from="1610560808239" duration="5334000" />
+      <workItem from="1610560808239" duration="5425000" />
+      <workItem from="1610647593418" duration="3384000" />
     </task>
     <servers />
   </component>
