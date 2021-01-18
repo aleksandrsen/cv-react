@@ -11,10 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact-me/plugin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact-me/plugin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +43,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React/react_cocktail_shop---------git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React/react_cocktail_shop---------git/src/utils/index.tsx" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -101,7 +101,7 @@
       <workItem from="1610560808239" duration="5425000" />
       <workItem from="1610647593418" duration="4336000" />
       <workItem from="1610980427825" duration="16000" />
-      <workItem from="1610992978414" duration="2353000" />
+      <workItem from="1610992978414" duration="5209000" />
     </task>
     <servers />
   </component>
