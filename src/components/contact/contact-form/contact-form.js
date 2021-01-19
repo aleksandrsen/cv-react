@@ -1,12 +1,18 @@
 import React, { useState } from "react";
 import "./contact-form.scss";
-import { validateEmail } from "../../../utils";
+import { validateEmail, sendEmail } from "../../../utils";
+import Spinner from "../../spinner/spinner";
 
 const ContactForm = () => {
     const [values, setValues] = useState({
         name: "",
         email: "",
         message: "",
+    });
+
+    const [requestInfo, setRequestInfo] = useState({
+        sending: false,
+        isSend: false,
     });
 
     const [focused, setFocused] = useState("");
@@ -26,13 +32,6 @@ const ContactForm = () => {
         },
     });
 
-    const handleChange = ({ target: { name, value } }) => {
-        setValues({ ...values, [name]: value });
-        setValidate(checkField(name, value));
-    };
-
-    const handleFocus = ({ target: { name } }) => setFocused(name);
-
     const checkField = (field, value) => {
         let isValid = true;
         const res = { ...validate };
@@ -51,6 +50,13 @@ const ContactForm = () => {
         return res;
     };
 
+    const handleChange = ({ target: { name, value } }) => {
+        setValues({ ...values, [name]: value });
+        setValidate(checkField(name, value));
+    };
+
+    const handleFocus = ({ target: { name } }) => setFocused(name);
+
     const handleBlur = ({ target: { name, value } }) => {
         setFocused(() => "");
         setValidate(() => checkField(name, value));
@@ -58,6 +64,13 @@ const ContactForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
+        setRequestInfo({ ...requestInfo, sending: true });
+        sendEmail(values)
+            .then((res) => {
+                setRequestInfo({ sending: false, isSend: true });
+                setValues({ name: "", email: "", message: "" });
+            })
+            .catch((err) => setRequestInfo({ ...requestInfo, sending: false }));
     };
 
     return (
@@ -110,9 +123,15 @@ const ContactForm = () => {
             </div>
             <button
                 type="submit"
-                disabled={!validate.name.isValid || !validate.email.isValid || !validate.message.isValid}
+                disabled={
+                    !validate.name.isValid ||
+                    !validate.email.isValid ||
+                    !validate.message.isValid ||
+                    requestInfo.sending ||
+                    requestInfo.isSend
+                }
             >
-                Send message
+                Send message {requestInfo.sending && <Spinner />}
             </button>
         </form>
     );

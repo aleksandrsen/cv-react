@@ -1,6 +1,6 @@
-import img1 from "./preview-5.jpg";
-import img2 from "./preview-7.jpg";
-import img from "./preview-6.jpg";
+import img1 from "./img/preview-5.jpg";
+import img2 from "./img/preview-7.jpg";
+import img from "./img/preview-6.jpg";
 
 export const NAVIGATION_ITEMS = ["home", "about", "skills", "experience", "education", "portfolio", "contact"];
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.scss";
-import certificate from "../../utils/certificate.jpg";
+import certificate from "../../utils/img/certificate.jpg";
 
 const Education = ({ id, education }) => (
     <section className="education sectionItem" id={id}>
