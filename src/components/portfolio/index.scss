@@ -38,7 +38,7 @@
             }
 
             span {
-                font-size: 18px;
+                font-size: 20px;
             }
 
             a {
@@ -46,6 +46,7 @@
                 align-items: center;
                 transition: 0.3s;
                 cursor: pointer;
+                font-size: 18px;
                 &:hover {
                     color: $secondary-color;
                     text-decoration: underline;

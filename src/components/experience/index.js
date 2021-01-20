@@ -4,11 +4,6 @@ import "./index.scss";
 const Experience = ({ id, experience }) => (
     <section className="experience sectionItem" id={id}>
         <h2 className="sectionItemHeader">{id}</h2>
-        <p className="experience__description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corporis debitis deleniti dignissimos et ipsa
-            iste maxime, minima necessitatibus neque nisi non pariatur, quae quibusdam rerum sequi similique, soluta
-            vitae!
-        </p>
         <ul className="experience__list">
             {experience.map(({ orgName, position, period, link, description, iconId }) => (
                 <li className="experience__listItem" key={orgName}>

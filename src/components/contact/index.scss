@@ -18,9 +18,10 @@
     &__infoItem {
         display: flex;
         align-items: center;
-        padding: 15px 5px;
+        padding: 20px 10px;
         border-bottom: 1px solid $text-color;
         text-align: left;
+        font-size: 18px;
 
         svg {
             margin-right: 16px;

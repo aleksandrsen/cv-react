@@ -15,15 +15,11 @@ import Icons from "../../utils/icons";
 import { NAVIGATION_ITEMS, MAIN_INFO } from "../../utils/data";
 
 const App = () => {
-    const handleScroll = (e) => {
-        console.log(window.location.hash);
-    };
-
     return (
         <main className="app">
             <Icons />
             <NavPanel nav={NAVIGATION_ITEMS} name={MAIN_INFO.about.name} />
-            <div className="app__scrollContainer" onScroll={handleScroll}>
+            <div className="app__scrollContainer">
                 <Home id={NAVIGATION_ITEMS[0]} name={MAIN_INFO.about.name} />
                 <About id={NAVIGATION_ITEMS[1]} {...MAIN_INFO.about} />
                 <Skills id={NAVIGATION_ITEMS[2]} skills={MAIN_INFO.skills} />

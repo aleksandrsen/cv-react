@@ -1,10 +1,18 @@
 @import "src/utils/var";
 
 .education {
+    .sectionItemHeader {
+        margin-bottom: 64px !important;
+    }
+
     p {
         margin-bottom: 30px;
         text-align: left;
         line-height: 1.4em;
+    }
+
+    &__list {
+        width: 100%;
     }
 
     &__listItem {
@@ -15,8 +23,16 @@
         & > div {
             display: flex;
             align-items: center;
-            width: 50%;
+            //width: 50%;
             margin-right: 32px;
+
+            &:first-child {
+                min-width: 30%;
+            }
+
+            &:last-child {
+                flex-grow: 1;
+            }
         }
     }
 
@@ -54,12 +70,13 @@
         }
 
         .period {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 
     &__description {
         text-align: left;
-        line-height: 1.4em;
+        font-size: 18px;
+        line-height: 1.7em;
     }
 }

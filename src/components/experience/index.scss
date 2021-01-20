@@ -1,23 +1,27 @@
 @import "src/utils/var";
 
 .experience {
-    &__description {
-        margin-bottom: 30px;
-        text-align: left;
-        line-height: 1.4em;
+    .sectionItemHeader {
+        margin-bottom: 64px !important;
     }
-
     &__listItem {
         display: flex;
         align-items: center;
-        padding: 32px 0;
+        padding: 64px 0;
         border-top: 1px solid #333;
 
         & > div {
             display: flex;
             align-items: center;
-            width: 50%;
             margin-right: 32px;
+
+            &:first-child {
+                min-width: 30%;
+            }
+
+            &:last-child {
+                flex-grow: 1;
+            }
         }
     }
 
@@ -53,12 +57,13 @@
         }
 
         .period {
-            font-size: 14px;
+            font-size: 16px;
         }
     }
 
     &__description {
+        font-size: 18px;
         text-align: left;
-        line-height: 1.4em;
+        line-height: 1.7em;
     }
 }
