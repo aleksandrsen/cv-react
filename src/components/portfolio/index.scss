@@ -9,6 +9,16 @@
         display: flex;
         align-items: center;
         flex-wrap: wrap;
+        overflow: auto;
+        &::-webkit-scrollbar {
+            height: 0;
+            width: 0;
+            display: none;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            display: none;
+        }
 
         li.portfolioItem {
             min-width: 300px;

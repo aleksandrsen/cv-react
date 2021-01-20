@@ -1,16 +1,20 @@
-import React from "react";
+import React, { useState } from "react";
 import "./index.scss";
-import { useLocation } from "react-router-dom";
 
 const NavPanel = ({ nav, name }) => {
-    const location = useLocation();
+    const [activeHash, setActiveHash] = useState(window.location.hash);
+
     return (
         <aside className="navPanel">
             <div className="navPanel__header">{name}</div>
             <ul className="navPanel__list">
                 {nav.map((item) => (
                     <li key={item}>
-                        <a href={`#${item}`} className={location.hash === `#${item}` ? "active" : ""}>
+                        <a
+                            href={`#${item}`}
+                            className={activeHash === `#${item}` ? "active" : ""}
+                            onClick={(e) => setActiveHash(e.target.hash)}
+                        >
                             {item.toUpperCase()}
                         </a>
                     </li>

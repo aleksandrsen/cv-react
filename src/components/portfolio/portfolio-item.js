@@ -27,6 +27,7 @@ const PortfolioItem = ({ project: { name, link, git, screenshots } }) => {
 
             {isOpen && (
                 <Lightbox
+                    enableZoom={false}
                     mainSrc={screenshots[activeIdx]}
                     onCloseRequest={() => setIsOpen(false)}
                     nextSrc={screenshots[(activeIdx + 1) % screenshots.length]}

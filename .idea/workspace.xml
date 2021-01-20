@@ -11,18 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/spinner/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/spinner/spinner.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/education/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/certificate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/img/certificate.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/data.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/data.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/preview-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/preview-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/preview-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact-me/plugin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/portfolio-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/portfolio-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +110,8 @@
       <workItem from="1610980427825" duration="16000" />
       <workItem from="1610992978414" duration="5913000" />
       <workItem from="1611079661903" duration="635000" />
-      <workItem from="1611080935278" duration="2920000" />
+      <workItem from="1611080935278" duration="4265000" />
+      <workItem from="1611158790467" duration="4057000" />
     </task>
     <servers />
   </component>
