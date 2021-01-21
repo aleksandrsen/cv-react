@@ -12,7 +12,7 @@
     }
 
     &__list {
-        width: 33%;
+        width: 48%;
     }
 
     &__infoItem {
@@ -24,12 +24,18 @@
         font-size: 18px;
 
         svg {
+            display: block;
+            width: 18px;
+            height: 18px;
             margin-right: 16px;
             color: $secondary-color;
         }
 
         a {
             transition: 0.3s;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
 
             &:hover {
                 color: $secondary-color;

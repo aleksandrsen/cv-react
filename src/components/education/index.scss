@@ -27,7 +27,7 @@
             margin-right: 32px;
 
             &:first-child {
-                min-width: 30%;
+                min-width: 50%;
             }
 
             &:last-child {
@@ -36,17 +36,13 @@
         }
     }
 
-    &__listItemIcon {
-        width: 60px;
-        height: 60px;
-        flex-shrink: 0;
-        background-color: $secondary-color;
-        margin-right: 25px;
-    }
-
     &__itemIcon {
         margin-right: 32px;
         color: $secondary-color;
+
+        @include large-screen {
+            margin-right: 25px;
+        }
     }
 
     &__listItemInfo {
@@ -78,5 +74,10 @@
         text-align: left;
         font-size: 18px;
         line-height: 1.7em;
+
+        @include large-screen {
+            font-size: 16px;
+            line-height: 1.4em;
+        }
     }
 }
