@@ -23,5 +23,13 @@
         font-size: 18px;
         text-align: left;
         line-height: 1.7em;
+
+        @include large-screen {
+            width: 60%;
+        }
+
+        @include medium-screen {
+            width: 100%;
+        }
     }
 }

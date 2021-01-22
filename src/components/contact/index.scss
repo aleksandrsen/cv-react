@@ -3,16 +3,31 @@
 .contact {
     &.sectionItem {
         padding-right: 64px;
+
+        .sectionItemHeader {
+            @include medium-screen {
+                margin-bottom: 20px;
+            }
+        }
     }
 
     &__content {
         display: flex;
         justify-content: space-between;
         width: 100%;
+
+        @include medium-screen {
+            flex-direction: column;
+        }
     }
 
     &__list {
         width: 48%;
+
+        @include medium-screen {
+            width: 100%;
+            margin-bottom: 20px;
+        }
     }
 
     &__infoItem {
@@ -22,6 +37,10 @@
         border-bottom: 1px solid $text-color;
         text-align: left;
         font-size: 18px;
+
+        @include medium-screen {
+            padding: 15px 10px;
+        }
 
         svg {
             display: block;

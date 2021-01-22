@@ -20,14 +20,21 @@
         padding: 32px 0;
         border-top: 1px solid #333;
 
+        @include medium-screen {
+            flex-direction: column;
+        }
+
         & > div {
             display: flex;
             align-items: center;
-            //width: 50%;
             margin-right: 32px;
 
             &:first-child {
                 min-width: 50%;
+
+                @include medium-screen {
+                    margin-bottom: 20px;
+                }
             }
 
             &:last-child {

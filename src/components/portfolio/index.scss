@@ -16,7 +16,6 @@
             justify-content: flex-start;
         }
 
-
         &::-webkit-scrollbar {
             height: 0;
             width: 0;
@@ -32,10 +31,13 @@
             width: 25%;
             padding: 15px;
             text-align: left;
-            //margin: 0 auto;
 
             @include large-screen {
                 width: 50%;
+            }
+
+            @include medium-screen {
+                width: 100%;
             }
 
             img,

@@ -12,6 +12,10 @@
         &:last-child {
             margin-top: 64px;
             text-align: left;
+
+            @include medium-screen {
+                margin-top: 32px;
+            }
         }
 
         h2 {
@@ -21,6 +25,10 @@
 
             @include large-screen {
                 margin-bottom: 32px;
+            }
+
+            @include medium-screen {
+                margin-bottom: 20px;
             }
         }
     }
@@ -35,6 +43,11 @@
             min-width: 150px;
             padding: 12px;
             font-size: 18px;
+
+            @include medium-screen {
+                font-size: 16px;
+                padding: 10px;
+            }
         }
     }
 
@@ -44,6 +57,10 @@
             display: inline-block;
             padding: 12px;
             font-size: 18px;
+
+            @include medium-screen {
+                padding: 10px;
+            }
         }
     }
 }

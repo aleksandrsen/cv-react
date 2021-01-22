@@ -15,6 +15,12 @@
         width: calc(100vw - 194px);
         overflow: hidden;
 
+        @include small-screen {
+            width: 100vw;
+            flex-direction: column;
+            overflow: auto;
+        }
+
         .sectionItem {
             min-height: 100vh;
             min-width: calc(100vw - 194px);
@@ -24,6 +30,23 @@
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+
+            @include small-screen {
+                padding: 32px;
+                min-height: auto;
+
+                &:first-child {
+                    min-height: 100vh;
+                }
+
+                &:nth-child(2) {
+                    margin-top: 0;
+                }
+
+                & + .sectionItem {
+                    margin-top: 50px;
+                }
+            }
 
             &:target {
                 .sectionItemHeader::before {
@@ -38,6 +61,10 @@
                 position: relative;
                 margin-bottom: 30px;
                 text-transform: uppercase;
+
+                @include small-screen {
+                    margin-bottom: 16px;
+                }
 
                 &::before {
                     content: "";

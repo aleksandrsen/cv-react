@@ -1,8 +1,21 @@
+@import "src/utils/var";
+
 .home {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    @include medium-screen {
+        span {
+            display: block;
+            margin-top: 12px;
+        }
+
+        .sectionItemHeader {
+            margin-bottom: 16px !important;
+        }
+    }
 
     .position {
         font-size: 32px;

@@ -5,12 +5,24 @@
     text-align: right;
     max-width: 800px;
 
+    @include medium-screen {
+        width: 100%;
+    }
+
+    @include small-screen {
+        margin-top: 32px;
+    }
+
     .textInput {
         width: 100%;
         position: relative;
 
         & + .textInput {
             margin-top: 25px;
+
+            @include medium-screen {
+                margin-top: 20px;
+            }
         }
 
         &::before {
@@ -89,6 +101,10 @@
         background-color: $primary-color;
         transition: 0.3s;
         position: relative;
+
+        @include medium-screen {
+            margin-top: 25px;
+        }
 
         &:hover {
             opacity: 0.7;
