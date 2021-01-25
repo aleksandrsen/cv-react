@@ -40,6 +40,12 @@
                 width: 100%;
             }
 
+            @include small-screen {
+                & + .portfolioItem {
+                    margin-top: 32px;
+                }
+            }
+
             img,
             span {
                 margin-bottom: 16px;
@@ -53,6 +59,10 @@
 
             span {
                 font-size: 20px;
+
+                @include small-screen {
+                    font-size: 24px;
+                }
             }
 
             a {

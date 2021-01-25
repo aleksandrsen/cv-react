@@ -9,6 +9,7 @@ import NavPanel from "../nav-panel";
 import Portfolio from "../portfolio";
 import Education from "../education";
 import Experience from "../experience";
+import BurgerMenu from "../burger-menu";
 
 // Utils
 import Icons from "../../utils/icons";
@@ -18,6 +19,7 @@ const App = () => {
     return (
         <main className="app">
             <Icons />
+            <BurgerMenu nav={NAVIGATION_ITEMS}/>
             <NavPanel nav={NAVIGATION_ITEMS} name={MAIN_INFO.about.name} />
             <div className="app__scrollContainer">
                 <Home id={NAVIGATION_ITEMS[0]} name={MAIN_INFO.about.name} />

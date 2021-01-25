@@ -11,18 +11,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/burger-menu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/burger-menu/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/prettier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/contact-form/contact-form.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/education/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/experience/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/home/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/portfolio/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/skills/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/index.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../React/react_cocktail_shop---------git/src/src_/var.scss" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/node_modules" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -60,8 +60,8 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Aksandr\Desktop\Study, projects\Portfolio\CV-react\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\aledo\AppData\Roaming\npm\node_modules" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.3.4\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -114,7 +114,10 @@
       <workItem from="1611080935278" duration="4265000" />
       <workItem from="1611158790467" duration="9984000" />
       <workItem from="1611249663721" duration="5214000" />
-      <workItem from="1611338673539" duration="2245000" />
+      <workItem from="1611338673539" duration="3560000" />
+      <workItem from="1611594613526" duration="4761000" />
+      <workItem from="1611599947517" duration="460000" />
+      <workItem from="1611600427015" duration="1381000" />
     </task>
     <servers />
   </component>

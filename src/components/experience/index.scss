@@ -1,9 +1,10 @@
 @import "src/utils/var";
 
+.experience.sectionItem .sectionItemHeader {
+    margin-bottom: 64px;
+}
+
 .experience {
-    .sectionItemHeader {
-        margin-bottom: 64px !important;
-    }
     &__listItem {
         display: flex;
         align-items: center;

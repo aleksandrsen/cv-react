@@ -1,10 +1,7 @@
 @import "src/utils/var";
 
-.home {
-    display: flex;
-    align-items: center;
+.home.sectionItem {
     justify-content: center;
-    flex-direction: column;
 
     @include medium-screen {
         span {
@@ -13,7 +10,7 @@
         }
 
         .sectionItemHeader {
-            margin-bottom: 16px !important;
+            margin-bottom: 16px;
         }
     }
 
