@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.scss";
 
-const Experience = ({ id, experience }) => (
-    <section className="experience sectionItem" id={id}>
+const Experience = ({ id, experience, componentRef }) => (
+    <section className="experience sectionItem" id={id} ref={componentRef}>
         <h2 className="sectionItemHeader">{id}</h2>
         <ul className="experience__list">
             {experience.map(({ orgName, position, period, link, description, iconId }) => (

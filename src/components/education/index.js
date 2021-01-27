@@ -2,8 +2,8 @@ import React from "react";
 import "./index.scss";
 import certificate from "../../utils/img/certificate.jpg";
 
-const Education = ({ id, education }) => (
-    <section className="education sectionItem" id={id}>
+const Education = ({ id, education, componentRef }) => (
+    <section className="education sectionItem" id={id} ref={componentRef}>
         <h2 className="sectionItemHeader">{id}</h2>
         <ul className="education__list">
             {education.map(({ name, degree, period, description, iconId }) => (

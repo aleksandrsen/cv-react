@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.scss";
 
-const Skills = ({ id, skills: { technical, language } }) => (
-    <section className="skills sectionItem" id={id}>
+const Skills = ({ id, skills: { technical, language }, componentRef }) => (
+    <section className="skills sectionItem" id={id} ref={componentRef}>
         <h2 className="sectionItemHeader">{id}</h2>
         <div className="skills__wrapper">
             <h2>{technical.title}</h2>

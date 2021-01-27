@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.scss";
 
-const Home = ({ id, name }) => (
-    <section className="home sectionItem" id={id}>
+const Home = ({ id, name, componentRef }) => (
+    <section className="home sectionItem" id={id} ref={componentRef}>
         <h1 className="sectionItemHeader">
             Hello, I'm
             <span>{name}</span>

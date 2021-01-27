@@ -3,8 +3,8 @@ import "./index.scss";
 // Components
 import PortfolioItem from "./portfolio-item";
 
-const Portfolio = ({ id, portfolio }) => (
-    <section className="portfolio sectionItem" id={id}>
+const Portfolio = ({ id, portfolio, componentRef }) => (
+    <section className="portfolio sectionItem" id={id} ref={componentRef}>
         <h2 className="sectionItemHeader portfolio">{id}</h2>
         <ul className="portfolio__list">
             {portfolio.map((project) => (

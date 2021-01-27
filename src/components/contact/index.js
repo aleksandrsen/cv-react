@@ -2,8 +2,8 @@ import React from "react";
 import "./index.scss";
 import ContactForm from "./contact-form/contact-form";
 
-const Contact = ({ id, contacts }) => (
-    <section className="contact sectionItem" id={id}>
+const Contact = ({ id, contacts, componentRef }) => (
+    <section className="contact sectionItem" id={id} ref={componentRef}>
         <h2 className="sectionItemHeader">{id}</h2>
         <div className="contact__content">
             <ul className="contact__list">

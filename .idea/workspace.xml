@@ -11,12 +11,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/nav/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ScrollContainer/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/burger-menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-menu/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/burger-menu/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-menu/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/contact/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/education/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/education/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/experience/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/experience/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/portfolio/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/portfolio/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/skills/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/skills/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +118,8 @@
       <workItem from="1611599947517" duration="460000" />
       <workItem from="1611600427015" duration="2598000" />
       <workItem from="1611681502157" duration="20000" />
-      <workItem from="1611681561739" duration="3332000" />
+      <workItem from="1611681561739" duration="5709000" />
+      <workItem from="1611767210855" duration="5838000" />
     </task>
     <servers />
   </component>
