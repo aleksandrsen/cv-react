@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-const ScrollContainer = ({ children }) => {
+const ScrollContainer = ({ children, activeHash, handleHash }) => {
     const [refsCollection, setRefsCollection] = useState({});
     const [coordsCollection, setCoordsCollection] = useState({});
 
@@ -18,10 +18,15 @@ const ScrollContainer = ({ children }) => {
             }));
             setCoordsCollection(coords_);
         }
-    }, [refsCollection]);
+    }, [refsCollection, children]);
 
-    const handleScroll = (e) => {
-        // console.log(e);
+    const handleScroll = ({ target }) => {
+        const scrollTop = target.scrollTop;
+
+        const id = Object.values(coordsCollection).find(
+            ({ coords: { top, bottom } }) => top - 300 < scrollTop && bottom > scrollTop
+        ).id;
+        if (id !== `#${activeHash}`) handleHash(id);
     };
 
     return (
