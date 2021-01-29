@@ -11,14 +11,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bb5fc6b-e18b-4f40-96c2-7d83b9e01e51" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/nav-wrapper/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ScrollContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ScrollContainer/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/app/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/app/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/burger-menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/burger-menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav-panel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-panel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/burger-menu/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/burger-menu/index.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/nav-wrapper/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav-wrapper/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

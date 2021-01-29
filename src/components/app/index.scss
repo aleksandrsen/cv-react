@@ -79,6 +79,7 @@
                     background-color: $secondary-color;
 
                     @include small-screen {
+                        width: 100%;
                         transition-delay: 0s;
                         transition: 0.7s;
                     }

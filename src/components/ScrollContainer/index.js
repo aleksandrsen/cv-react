@@ -1,39 +1,26 @@
 import React, { useEffect, useState } from "react";
 
-const ScrollContainer = ({ children, activeHash, handleHash }) => {
+const ScrollContainer = ({ children, activeHash }) => {
     const [refsCollection, setRefsCollection] = useState({});
-    const [coordsCollection, setCoordsCollection] = useState({});
 
     useEffect(() => {
         const collection = {};
-        React.Children.forEach(children, (childNode) => (collection[childNode.props.id] = React.createRef()));
+        React.Children.forEach(children, (childNode) => (collection[`#${childNode.props.id}`] = React.createRef()));
         setRefsCollection(collection);
     }, [children]);
 
     useEffect(() => {
-        if (Object.values(refsCollection).length === children.length) {
-            const coords_ = Object.entries(refsCollection).map(([key, ref]) => ({
-                coords: ref.current.getBoundingClientRect(),
-                id: key,
-            }));
-            setCoordsCollection(coords_);
+        if (activeHash && refsCollection[activeHash]?.current) {
+            refsCollection[activeHash].current.scrollIntoView();
         }
-    }, [refsCollection, children]);
-
-    const handleScroll = ({ target }) => {
-        const scrollTop = target.scrollTop;
-
-        const id = Object.values(coordsCollection).find(
-            ({ coords: { top, bottom } }) => top - 300 < scrollTop && bottom > scrollTop
-        ).id;
-        if (id !== `#${activeHash}`) handleHash(id);
-    };
+    }, [activeHash, refsCollection]);
 
     return (
-        <div className="app__scrollContainer" onScroll={handleScroll}>
-            {React.Children.map(children, (childNode) =>
-                React.cloneElement(childNode, { componentRef: refsCollection[childNode.props.id] })
-            )}
+        <div className="app__scrollContainer">
+            {Object.values(refsCollection).length &&
+                React.Children.map(children, (childNode) =>
+                    React.cloneElement(childNode, { componentRef: refsCollection[`#${childNode.props.id}`] })
+                )}
         </div>
     );
 };
