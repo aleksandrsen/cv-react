@@ -4,6 +4,10 @@
     &.sectionItem {
         padding-right: 64px;
 
+        @include large-screen {
+            padding-right: 16px;
+        }
+
         .sectionItemHeader {
             @include medium-screen {
                 margin-bottom: 20px;
@@ -36,7 +40,7 @@
         padding: 20px 10px;
         border-bottom: 1px solid $text-color;
         text-align: left;
-        font-size: 18px;
+        font-size: 20px;
 
         @include medium-screen {
             padding: 15px 10px;
@@ -55,10 +59,8 @@
             text-overflow: ellipsis;
             overflow: hidden;
             white-space: nowrap;
-
-            &:hover {
-                color: $secondary-color;
-            }
+            color: $secondary-color;
+            cursor: pointer;
         }
     }
 }

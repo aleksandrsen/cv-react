@@ -15,6 +15,8 @@
         width: calc(100vw - 194px);
         overflow: hidden;
 
+
+
         @include small-screen {
             width: 100vw;
             flex-direction: column;
@@ -23,13 +25,17 @@
 
         .sectionItem {
             min-height: 100vh;
-            min-width: calc(100vw - 194px);
+            min-width: calc(100vw - 234px);
             transition: 1s;
             padding: 32px 16px;
             color: $text-color;
             display: flex;
             flex-direction: column;
             align-items: flex-start;
+
+            @include medium-screen {
+                min-width: calc(100vw - 194px);
+            }
 
             @include small-screen {
                 padding: 32px;

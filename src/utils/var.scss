@@ -1,8 +1,14 @@
 $primary-color: #000;
-$secondary-color: #7dba5c;
+$secondary-color: #6d9258;
 $title-font: "Oswald", sans-serif;
 $text-font: "Roboto", sans-serif;
 $text-color: #818181;
+
+@mixin extra-large-screen() {
+  @media screen and (max-width: 1399px) {
+    @content;
+  }
+}
 
 @mixin large-screen() {
   @media screen and (max-width: 1199px) {

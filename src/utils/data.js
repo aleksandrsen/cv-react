@@ -91,7 +91,7 @@ export const MAIN_INFO = {
             title: "LANGUAGE",
             list: [
                 { lang: "EN", level: "intermediate" },
-                { lang: "UR RU", level: "native" },
+                { lang: "UK", level: "native" },
             ],
         },
     },

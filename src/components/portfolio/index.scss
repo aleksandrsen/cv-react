@@ -8,12 +8,17 @@
     &__list {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
         flex-wrap: wrap;
         overflow: auto;
 
         @include large-screen {
             justify-content: flex-start;
+        }
+
+        @include small-screen {
+            flex-direction: column;
+            align-items: center;
         }
 
         &::-webkit-scrollbar {
@@ -27,20 +32,28 @@
         }
 
         li.portfolioItem {
-            min-width: 300px;
+            min-width: 350px;
             width: 25%;
             padding: 15px;
             text-align: left;
+
+            @include extra-large-screen {
+                width: 33%;
+                min-width: 250px;
+            }
 
             @include large-screen {
                 width: 50%;
             }
 
             @include medium-screen {
-                width: 100%;
+                width: 50%;
+                display: flex;
+                flex-direction: column;
             }
 
             @include small-screen {
+                width: 100%;
                 & + .portfolioItem {
                     margin-top: 32px;
                 }
@@ -55,13 +68,27 @@
             .links {
                 display: flex;
                 align-items: center;
+
+                @include medium-screen {
+                    align-items: flex-start;
+                    flex-direction: column;
+                }
+
+                @include small-screen {
+                    flex-direction: row;
+                }
             }
 
             span {
-                font-size: 20px;
+                font-size: 24px;
+
+                @include extra-large-screen {
+                    font-size: 20px;
+                }
 
                 @include small-screen {
                     font-size: 24px;
+                    margin-top: 18px;
                 }
             }
 
@@ -70,7 +97,16 @@
                 align-items: center;
                 transition: 0.3s;
                 cursor: pointer;
-                font-size: 18px;
+                font-size: 22px;
+
+                @include extra-large-screen {
+                    font-size: 16px;
+                }
+
+                @include small-screen {
+                    font-size: 20px;
+                }
+
                 &:hover {
                     color: $secondary-color;
                     text-decoration: underline;
@@ -78,6 +114,16 @@
 
                 & + a {
                     margin-left: 15px;
+
+                    @include medium-screen {
+                        margin-left: 0;
+                        margin-top: 12px;
+                    }
+
+                    @include small-screen {
+                        margin-left: 16px;
+                        margin-top: 0;
+                    }
                 }
 
                 svg {

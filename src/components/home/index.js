@@ -3,11 +3,25 @@ import "./index.scss";
 
 const Home = ({ id, name, componentRef }) => (
     <section className="home sectionItem" id={id} ref={componentRef}>
-        <h1 className="sectionItemHeader">
-            Hello, I'm
-            <span>{name}</span>
-        </h1>
-        <div className="position">Frontend developer</div>
+        <svg>
+            <clipPath id="textClip" className="filled-heading">
+                <text id="firstLine" y="100">
+                    Hello, I'm
+                </text>
+                <text id="secondLine" y="160">
+                    {name}
+                </text>
+                <text id="thirdLine" y="220">
+                    Frontend developer
+                </text>
+            </clipPath>
+
+            <g id="background" clipPath="url(#textClip)">
+                <use href="#firstLine" />
+                <use href="#secondLine" />
+                <use href="#thirdLine" />
+            </g>
+        </svg>
     </section>
 );
 

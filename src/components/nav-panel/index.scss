@@ -15,8 +15,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 130px;
-        height: 130px;
+        width: 170px;
+        height: 170px;
         background-color: $secondary-color;
         text-transform: uppercase;
         color: $primary-color;
@@ -25,6 +25,11 @@
         padding: 10px;
         line-height: 1.4em;
         margin-bottom: 30px;
+
+        @include medium-screen {
+            width: 130px;
+            height: 130px;
+        }
     }
 
     &__list {
@@ -33,10 +38,15 @@
 
         a {
             display: block;
+            font-size: 20px;
             position: relative;
-            padding: 10px 0;
+            padding: 15px 0;
             color: #818181;
             border-bottom: 1px solid #ebebeb33;
+
+            @include medium-screen {
+                font-size: 16px;
+            }
 
             &::before {
                 content: "";
@@ -44,10 +54,14 @@
                 top: 100%;
                 left: 0;
                 width: 0;
-                height: 1px;
+                height: 2px;
                 background-color: $secondary-color;
                 transition: 1s;
                 transition-delay: 0.5s;
+
+                @include medium-screen {
+                    height: 1px;
+                }
             }
         }
 
