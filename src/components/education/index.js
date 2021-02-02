@@ -33,4 +33,4 @@ const Education = ({ id, education, componentRef }) => (
     </section>
 );
 
-export default Education;
+export default React.memo(Education);

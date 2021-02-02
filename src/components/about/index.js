@@ -16,4 +16,4 @@ const About = ({ id, name, email, phone, birthDate, address, about, componentRef
     </section>
 );
 
-export default About;
+export default React.memo(About);

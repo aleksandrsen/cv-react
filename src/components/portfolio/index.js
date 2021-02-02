@@ -14,4 +14,4 @@ const Portfolio = ({ id, portfolio, componentRef }) => (
     </section>
 );
 
-export default Portfolio;
+export default React.memo(Portfolio);

@@ -7,10 +7,11 @@
 
     @include medium-screen {
         width: 100%;
+        margin-top: 32px;
     }
 
     @include small-screen {
-        margin-top: 32px;
+        margin-top: 16px;
     }
 
     .textInput {
@@ -20,8 +21,8 @@
         & + .textInput {
             margin-top: 35px;
 
-            @include medium-screen {
-                margin-top: 20px;
+            @include small-screen {
+                margin-top: 35px;
             }
         }
 
@@ -109,6 +110,12 @@
 
         @include medium-screen {
             margin-top: 25px;
+        }
+
+        @include extra-small-screen {
+            margin-top: 64px;
+            width: 100%;
+            font-size: 20px;
         }
 
         &:hover {

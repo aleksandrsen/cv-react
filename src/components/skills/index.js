@@ -25,4 +25,4 @@ const Skills = ({ id, skills: { technical, language }, componentRef }) => (
     </section>
 );
 
-export default Skills;
+export default React.memo(Skills);

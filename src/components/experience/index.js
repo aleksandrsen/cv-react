@@ -31,4 +31,4 @@ const Experience = ({ id, experience, componentRef }) => (
     </section>
 );
 
-export default Experience;
+export default React.memo(Experience);

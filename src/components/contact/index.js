@@ -27,4 +27,4 @@ const Contact = ({ id, contacts, componentRef }) => (
     </section>
 );
 
-export default Contact;
+export default React.memo(Contact);
