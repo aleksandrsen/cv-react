@@ -3,6 +3,7 @@ import Lightbox from "react-image-lightbox";
 import "react-image-lightbox/style.css";
 
 const PortfolioItem = ({ project: { name, link, git, screenshots } }) => {
+    // const screenshots = images.map((item) => `http://localhost:3000${item}`);
     const [isOpen, setIsOpen] = useState(false);
     const [activeIdx, setActiveIdx] = useState(0);
 

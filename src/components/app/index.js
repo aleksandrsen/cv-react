@@ -22,7 +22,7 @@ const App = () => (
             <Skills id={NAVIGATION_ITEMS[2]} skills={MAIN_INFO.skills} />
             <Experience id={NAVIGATION_ITEMS[3]} experience={MAIN_INFO.experience} />
             <Education id={NAVIGATION_ITEMS[4]} education={MAIN_INFO.education} />
-            <Portfolio id={NAVIGATION_ITEMS[5]} portfolio={MAIN_INFO.portfolio} />
+            <Portfolio id={NAVIGATION_ITEMS[5]} />
             <Contact id={NAVIGATION_ITEMS[6]} contacts={MAIN_INFO.contact} />
         </NavWrapper>
     </main>

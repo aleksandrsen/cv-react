@@ -1,7 +1,3 @@
-import img1 from "./img/preview-5.jpg";
-import img2 from "./img/preview-7.jpg";
-import img from "./img/preview-6.jpg";
-
 export const NAVIGATION_ITEMS = ["home", "about", "skills", "experience", "education", "portfolio", "contact"];
 
 export const MAIN_INFO = {
@@ -95,57 +91,6 @@ export const MAIN_INFO = {
             ],
         },
     },
-    portfolio: [
-        { name: "TowerIQ app", link: "https://tiq.cloud/", screenshots: [img1, img2, img] },
-        {
-            name: "Cocktails shop",
-            link: "https://cocktails-shop.herokuapp.com/",
-            git: "https://github.com/aleksandrsen/cocktail-shop",
-            screenshots: [img1, img2, img],
-        },
-        {
-            name: "React todo list",
-            link: "https://my-t0d0-list.herokuapp.com/",
-            git: "https://github.com/aleksandrsen/react-todo-list",
-            screenshots: [img1, img2, img],
-        },
-        {
-            name: "Js news app",
-            link: "https://js-news-app.herokuapp.com/login",
-            git: "https://github.com/aleksandrsen/js-news-app",
-            screenshots: [img1, img2, img],
-        },
-        {
-            name: "Js countries app",
-            link: "https://js-countries-app.herokuapp.com/",
-            git: "https://github.com/aleksandrsen/js-countries-app",
-            screenshots: [img1, img2, img],
-        },
-        {
-            name: "Waxom landing page",
-            link: "https://aleksandrsen.github.io/waxom/",
-            git: "https://github.com/aleksandrsen/waxom-landing-page",
-            screenshots: [img1, img2, img],
-        },
-        {
-            name: "Brandi landing page",
-            link: "https://aleksandrsen.github.io/brandi/",
-            git: "https://github.com/aleksandrsen/brandi-landing-page",
-            screenshots: [img1, img2, img],
-        },
-        {
-            name: "Bouncy landing page",
-            link: "https://aleksandrsen.github.io/bouncy/",
-            git: "https://github.com/aleksandrsen/bouncy-landing-page",
-            screenshots: [img1, img2, img],
-        },
-        {
-            name: "Thomas Rhythm landing page",
-            link: "https://aleksandrsen.github.io/thomas-rhythm/",
-            git: "https://github.com/aleksandrsen/thomas-rhythm-landing-page",
-            screenshots: [img1, img2, img],
-        },
-    ],
     contact: [
         { value: "+38-095-58-31-872", iconId: "#icon-phone" },
         { value: "aleksandr7en@gmail.com", iconId: "#icon-email" },
