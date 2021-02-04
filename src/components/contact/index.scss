@@ -42,8 +42,17 @@
         text-align: left;
         font-size: 20px;
 
+        @include large-screen {
+            font-size: 18px;
+        }
+
         @include medium-screen {
             padding: 15px 10px;
+            font-size: 17px;
+        }
+
+        @include small-screen {
+            font-size: 14px;
         }
 
         svg {

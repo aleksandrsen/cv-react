@@ -9,7 +9,7 @@ const Education = ({ id, education, componentRef }) => (
             {education.map(({ name, degree, period, description, iconId }) => (
                 <li className="education__listItem" key={name}>
                     <div>
-                        <svg className="education__itemIcon" width="80" height="80">
+                        <svg className="education__itemIcon" width="100" height="100">
                             <use xlinkHref={iconId} />
                         </svg>
                         <div className="education__listItemInfo">

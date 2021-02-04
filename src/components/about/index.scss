@@ -13,6 +13,22 @@
         span {
             color: $secondary-color;
         }
+
+        @include extra-large-screen {
+            padding: 14px 5px;
+        }
+
+        @include large-screen {
+            font-size: 18px;
+        }
+
+        @include medium-screen {
+            font-size: 16px;
+        }
+
+        @include small-screen {
+            font-size: 15px;
+        }
     }
 
     &__profile {
@@ -28,15 +44,23 @@
         line-height: 1.7em;
 
         @include extra-large-screen {
-            width: 60%;
+            width: 70%;
+            font-size: 20px;
         }
 
         @include large-screen {
-            width: 80%;
+            width: 90%;
+            font-size: 18px;
         }
 
         @include medium-screen {
             width: 100%;
+            font-size: 17px;
+        }
+
+        @include small-screen {
+            font-size: 16px;
+            line-height: 1.4em;
         }
     }
 }

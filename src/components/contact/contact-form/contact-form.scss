@@ -24,6 +24,10 @@
             @include small-screen {
                 margin-top: 35px;
             }
+
+            @include small-screen {
+                margin-top: 30px;
+            }
         }
 
         &::before {
@@ -84,6 +88,13 @@
             font-size: 20px;
             color: $secondary-color;
             transition: 1s;
+            @include medium-screen {
+                font-size: 16px;
+            }
+
+            @include small-screen {
+                font-size: 14px;
+            }
         }
     }
 

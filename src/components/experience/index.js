@@ -8,7 +8,7 @@ const Experience = ({ id, experience, componentRef }) => (
             {experience.map(({ orgName, position, period, link, description, iconId }) => (
                 <li className="experience__listItem" key={orgName}>
                     <div>
-                        <svg className="experience__itemIcon" width="80" height="80">
+                        <svg className="experience__itemIcon" width="100" height="100">
                             <use xlinkHref={iconId} />
                         </svg>
                         <div className="experience__listItemInfo">

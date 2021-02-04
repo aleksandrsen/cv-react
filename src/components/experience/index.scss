@@ -4,12 +4,6 @@
     margin-bottom: 64px;
 }
 
-.experience.sectionItem {
-    @include extra-small-screen {
-        margin-bottom: 64px;
-    }
-}
-
 .experience {
     &__listItem {
         display: flex;
@@ -50,7 +44,6 @@
             width: 70px;
             height: 70px;
         }
-
     }
 
     &__listItemInfo {
@@ -65,6 +58,14 @@
             font-style: italic;
             transition: 0.3s;
             font-size: 18px;
+
+            @include large-screen {
+                font-size: 17px;
+            }
+
+            @include small-screen {
+                font-size: 15px;
+            }
             &:hover {
                 color: $secondary-color;
                 text-decoration: underline;
@@ -78,15 +79,27 @@
 
         .position {
             font-size: 23px;
+
+            @include small-screen {
+                font-size: 20px;
+            }
         }
 
         .period {
             font-size: 18px;
+
+            @include large-screen {
+                font-size: 17px;
+            }
+
+            @include small-screen {
+                font-size: 16px;
+            }
         }
     }
 
     &__description {
-        font-size: 22px;
+        font-size: 20px;
         text-align: left;
         line-height: 1.6em;
 
@@ -95,7 +108,7 @@
         }
 
         @include large-screen {
-            font-size: 18px;
+            font-size: 17px;
             line-height: 1.4em;
         }
 
@@ -104,7 +117,7 @@
         }
 
         @include small-screen {
-            font-size: 18px;
+            font-size: 16px;
         }
     }
 }
