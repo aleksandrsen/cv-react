@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import NavPanel from "../nav-panel";
-import ScrollContainer from "../ScrollContainer";
+import ScrollContainer from "../scroll-container";
 import { MAIN_INFO, NAVIGATION_ITEMS } from "../../utils/data";
 
 const NavWrapper = ({ children }) => {
