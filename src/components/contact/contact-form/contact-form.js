@@ -65,10 +65,24 @@ const ContactForm = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         setRequestInfo({ ...requestInfo, sending: true });
+
+        setTimeout(() => {
+            setRequestInfo({ sending: false, isSend: true });
+
+            setTimeout(() => {
+                setRequestInfo({ ...requestInfo, isSend: false });
+            }, 2000);
+        }, 1000);
+
         sendEmail(values)
             .then((res) => {
                 setRequestInfo({ sending: false, isSend: true });
                 setValues({ name: "", email: "", message: "" });
+
+                const timerId = setTimeout(() => {
+                    setRequestInfo((prev) => ({ ...prev, isSend: false }));
+                    clearTimeout(timerId);
+                }, 2000);
             })
             .catch((err) => setRequestInfo({ ...requestInfo, sending: false }));
     };
@@ -131,7 +145,16 @@ const ContactForm = () => {
                     requestInfo.isSend
                 }
             >
-                Send message {requestInfo.sending && <Spinner />}
+                Send message{" "}
+                {requestInfo.isSend ? (
+                    <svg width="25" height="25">
+                        <use xlinkHref="#icon-check" />
+                    </svg>
+                ) : requestInfo.sending ? (
+                    <Spinner />
+                ) : (
+                    ""
+                )}
             </button>
         </form>
     );

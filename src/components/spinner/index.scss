@@ -1,3 +1,5 @@
+@import "src/utils/var";
+
 @keyframes spinner-inside {
     0% {
         transform: translate(-50%, -50%) rotate(0deg);
@@ -10,7 +12,7 @@
     position: absolute;
     width: 73px;
     height: 73px;
-    border: 11px solid #7dba5c;
+    border: 11px solid $secondary-color;
     border-top-color: transparent;
     border-radius: 50%;
 }

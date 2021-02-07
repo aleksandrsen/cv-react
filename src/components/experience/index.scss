@@ -51,35 +51,20 @@
             stroke: $secondary-color;
             stroke-dasharray: 1500;
             stroke-dashoffset: 1500;
-            //animation: dash 3s linear infinite alternate;
-            animation: dash 10s linear forwards infinite;
+            animation: dashExperience 10s linear forwards infinite;
         }
 
-        @keyframes dash {
+        @keyframes dashExperience {
             0% {
                 stroke-dashoffset: 0;
             }
             40% {
                 stroke-dashoffset: 1500;
             }
-            //90% {
-            //    stroke-dashoffset: 3000;
-            //    fill: transparent;
-            //}
             100% {
                 stroke-dashoffset: 3000;
-                //fill: $secondary-color;
             }
         }
-
-        //@keyframes dash {
-        //    from {
-        //        stroke-dashoffset: 0;
-        //    }
-        //    to {
-        //        stroke-dashoffset: 1500;
-        //    }
-        //}
     }
 
     &__listItemInfo {

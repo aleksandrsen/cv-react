@@ -14,6 +14,9 @@ const NavWrapper = ({ children }) => {
     useEffect(() => {
         setActiveHash(window.location.hash);
         window.onhashchange = (e) => setActiveHash(window.location.hash);
+        if (!window.location.hash) {
+            window.location.hash = "#home";
+        }
     }, []);
 
     return (

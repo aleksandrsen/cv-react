@@ -50,6 +50,27 @@
         @include large-screen {
             margin-right: 25px;
         }
+
+        path {
+            fill: transparent;
+            stroke-width: 10;
+            stroke: $secondary-color;
+            stroke-dasharray: 1600;
+            stroke-dashoffset: 1600;
+            animation: dashEducation 10s linear forwards infinite;
+        }
+
+        @keyframes dashEducation {
+            0% {
+                stroke-dashoffset: 0;
+            }
+            40% {
+                stroke-dashoffset: 1600;
+            }
+            100% {
+                stroke-dashoffset: 3200;
+            }
+        }
     }
 
     &__listItemInfo {

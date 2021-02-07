@@ -13,6 +13,12 @@ const About = ({ id, name, email, phone, birthDate, address, about, componentRef
         </ul>
         <h2 className="about__profile">Professional profile</h2>
         <p className="about__profileContent">{about}</p>
+        <a className="about_CV" href="./OleksandrOksenCV.pdf" download>
+            <svg width="16" height="16">
+                <use xlinkHref="#download" />
+            </svg>
+            Download CV
+        </a>
     </section>
 );
 

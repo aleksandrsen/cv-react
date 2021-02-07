@@ -1,34 +1,20 @@
 @import "src/utils/var";
 
 .home.sectionItem {
+    min-height: 100vh;
     justify-content: center;
 
     svg {
         width: 500px;
     }
 
-
     h1 {
-        line-height: 1.4em;
+        line-height: 1.5em;
         text-align: left;
         font-size: 54px;
-        margin: 0 0 0 40px;
+        margin: 0 0 100px 30px;
     }
 
-    //@include medium-screen {
-    //    span {
-    //        display: block;
-    //        margin-top: 12px;
-    //    }
-    //
-    //    .sectionItemHeader {
-    //        margin-bottom: 16px;
-    //    }
-    //}
-    //
-    //.position {
-    //    font-size: 32px;
-    //}
     &.sectionItem .sectionItemHeader::before {
         display: none;
     }
